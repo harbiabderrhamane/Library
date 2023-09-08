@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#new-book-btn {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 880px;
+
+}
+
+form {
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 500px;
+    padding: 30px 40px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 700px;
+
+}
+
+
+
+form label {
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(112, 109, 109);
+    margin-bottom: 7px;
+    display: block;
+    padding-bottom: 3px;
+}
+
+form input {
+    border: 2px solid black;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
+
+form .add-a-book-btn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+.infos {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding-left: 90px;
+    padding-top: 50px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-left: 10px solid #facc15;
+
+    margin-top: 30px;
+    margin-right: 40px;
+
+
+}
+
+.infos h2 {
+    font-size: 22px;
+    font-weight: 800;
+
+
+}
+
+#div-container {
+    display: flex;
+
+}
+
+.delete-btn {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 70px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <button id="new-book-btn">NEW BOOK</button>
+
+    <form id="form" style="display: none">
+      <h1>Book card</h1>
+      <div>
+        <label for="name'">Name Of The Book:</label>
+        <input id="name" type="text" />
+      </div>
+
+      <div>
+        <label for="author">Author</label>
+        <input id="author" type="text" />
+      </div>
+      <div>
+        <label for="number-of-pages">Number Of Pages:</label>
+        <input id="number-of-pages" type="text" />
+      </div>
+      <div>
+        <label for="date-of-publishing">Date of pubishing:</label>
+        <input id="date-of-publishing" type="text" />
+      </div>
+      <!-- <div>
+            <label for="checkbox"></label>
+            <input id='checkbox' type='checkbox' />
+        </div> -->
+
+      <input
+        type="submit"
+        class="add-a-book-btn"
+        id="Add-a-Book-btn"
+        value="Add a Book"
+      />
+    </form>
+
+    <div id="div-container"></div>
+
+    <script src="react.js"></script>
+  </body>
+</html>
