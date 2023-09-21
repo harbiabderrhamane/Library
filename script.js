@@ -39,16 +39,14 @@ const deleteBookCard = (index) => {
   render();
 };
 
-//
-// when you come back dont forget to check if the card is in the display dont show it
-// again and if it isnt show and that is by looping through the array : myLibrary like you did earlier
+
 
 const addBookToLibrary = () => {
   const name = document.getElementById("name").value;
   const author = document.getElementById("author").value;
   const numberOfPages = document.getElementById("number-of-pages").value;
   const dateOfPublishing = document.getElementById("date-of-publishing").value;
-  // const checkBox = document.getElementById('checkBox').checked
+
   const books = new Books(name, author, numberOfPages, dateOfPublishing);
   myLibrary.push(books);
   render();
@@ -65,26 +63,3 @@ const formShape = () => {
 };
 formShape();
 
-// const addBookToLibrary = () => {
-//     // do stuff here
-//     button.onclick = () => {
-//         const books = userInput.value
-//         myLibrary.push(books)
-//         looping(myLibrary)
-
-//     }
-// }
-// addBookToLibrary()
-
-// const looping = (books) => {
-//     const addDiv = document.createElement('div')
-//     for (let i = 0; i < books.length; i++) {
-//         if (books[i] in books) {
-//             addDiv.innerText += books[i]
-//             bookDiv.appendChild(addDiv)
-//         } else {
-//             addDiv.innerText = books[i]
-//             bookDiv.appendChild(addDiv)
-//         }
-//     }
-// }
